@@ -3,6 +3,11 @@
 let otCore;
 const options = {
   // A container can either be a query selector or an HTMLElement
+  credentials: {
+  apiKey: 45973452,
+  sessionId: '2_MX40NTk3MzQ1Mn5-MTUwODQ2Mzc4MDcxOX5KVndnSG80MkNLY3pYNEg1YWU3eWIzWDF-fg',
+  token: 'T1==cGFydG5lcl9pZD00NTk3MzQ1MiZzZGtfdmVyc2lvbj1kZWJ1Z2dlciZzaWc9YWJlMTdlNjU4ZjZkZTE3NmYyZDFmMmQxM2YxMzlkNzk5Y2FlY2QzNDpzZXNzaW9uX2lkPTJfTVg0ME5UazNNelExTW41LU1UVXdPRFEyTXpjNE1EY3hPWDVLVm5kblNHODBNa05MWTNwWU5FZzFZV1UzZVdJeldERi1mZyZjcmVhdGVfdGltZT0xNTA4NDYzNzgwJnJvbGU9bW9kZXJhdG9yJm5vbmNlPTE1MDg0NjM3ODAuODY2ODE5NzMzMDkwMjImZXhwaXJlX3RpbWU9MTUxMTA1NTc4MA==',
+},
   streamContainers: function streamContainers(pubSub, type, data) {
     return {
       publisher: {
@@ -39,11 +44,7 @@ const options = {
     startURL: 'https://example.com/startArchive',
     stopURL: 'https://example.com/stopArchive',
   },
-  credentials: {
-  "apiKey": "45973452",
-  "sessionId": "1_MX40NTk3MzQ1Mn5-MTUwODM3OTU0NTQ4M35Vb0RjYU02Q3FWRmpFQkFWeW8zTFhXd2F-fg",
-  "token": "T1==cGFydG5lcl9pZD00NTk3MzQ1MiZzZGtfdmVyc2lvbj1kZWJ1Z2dlciZzaWc9Y2E2NTgzZDY2ZDcyOWZkMTViMGYzNTNmMTZjMjllY2M3OTM5YTM2ZjpzZXNzaW9uX2lkPTFfTVg0ME5UazNNelExTW41LU1UVXdPRE0zT1RVME5UUTRNMzVWYjBSallVMDJRM0ZXUm1wRlFrRldlVzh6VEZoWGQyRi1mZyZjcmVhdGVfdGltZT0xNTA4Mzc5NTQ1JnJvbGU9bW9kZXJhdG9yJm5vbmNlPTE1MDgzNzk1NDUuNTE1NTIxMzkzMzQ2OTMmZXhwaXJlX3RpbWU9MTUxMDk3MTU0NQ=="
-},
+  
 };
 
 /** Application Logic */
